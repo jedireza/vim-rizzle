@@ -41,8 +41,8 @@ hi NonText ctermfg=231 ctermbg=NONE cterm=NONE guifg=#525563 guibg=#0C151E gui=N
 hi Normal guifg=#FFFFFF guibg=#0C151E gui=NONE
 hi Number ctermfg=96 ctermbg=NONE cterm=NONE guifg=#FF4143 guibg=NONE gui=NONE
 hi Operator ctermfg=178 ctermbg=NONE cterm=NONE guifg=#FFCC4B guibg=NONE gui=NONE
-hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi PmenuSel ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#0C151E gui=NONE
+hi Pmenu ctermfg=NONE ctermbg=233 cterm=NONE guifg=NONE guibg=#162738 gui=NONE
+hi PmenuSel ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#0C151E gui=NONE
 hi PreProc ctermfg=96 ctermbg=NONE cterm=NONE guifg=#FF4143 guibg=NONE gui=NONE
 hi Search term=reverse cterm=bold ctermfg=250 ctermbg=178 gui=bold guifg=#111111 guibg=#FFCC4B
 hi SignColumn ctermfg=246 ctermbg=235 cterm=NONE guifg=#909194 guibg=#0C151E gui=NONE
@@ -53,9 +53,9 @@ hi StatusLine ctermfg=231 ctermbg=236 cterm=bold guifg=#FFFFFF guibg=#64666d gui
 hi StatusLineNC ctermfg=231 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#64666d gui=NONE
 hi StorageClass ctermfg=178 ctermbg=NONE cterm=NONE guifg=#FFCC4B guibg=NONE gui=NONE
 hi String ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE gui=italic
-hi TabLine      guifg=#666666 guibg=#0C151E gui=none
-hi TabLineFill  guifg=#333333 guibg=#0C151E gui=none
-hi TabLineSel   guifg=WHITE guibg=#0C151E gui=none
+hi TabLine guifg=#666666 guibg=#0C151E gui=none
+hi TabLineFill guifg=#333333 guibg=#0C151E gui=none
+hi TabLineSel guifg=WHITE guibg=#0C151E gui=none
 hi Tag ctermfg=96 ctermbg=NONE cterm=NONE guifg=#FF4143 guibg=NONE gui=NONE
 hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
 hi Todo ctermfg=24 ctermbg=NONE cterm=inverse,bold guifg=#7F4EFE guibg=NONE gui=inverse,bold
