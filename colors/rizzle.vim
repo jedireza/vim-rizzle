@@ -58,7 +58,7 @@ hi TabLineFill guifg=#333333 guibg=#0C151E gui=none
 hi TabLineSel guifg=WHITE guibg=#0C151E gui=none
 hi Tag ctermfg=96 ctermbg=NONE cterm=NONE guifg=#FF4143 guibg=NONE gui=NONE
 hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
-hi Todo ctermfg=24 ctermbg=NONE cterm=inverse,bold guifg=#7F4EFE guibg=NONE gui=inverse,bold
+hi Todo term=reverse cterm=bold ctermfg=250 ctermbg=178 gui=bold guifg=#111111 guibg=#FFCC4B
 hi Type ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE gui=NONE
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi VertSplit ctermfg=234 ctermbg=0 cterm=bold guifg=#3c464f guibg=#0C151E gui=bold
@@ -100,6 +100,13 @@ hi jsRegexpQuantifier ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NON
 hi jsReturn ctermfg=215 ctermbg=NONE cterm=NONE guifg=#FFA244 guibg=NONE gui=italic
 hi jsClassDefinition ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi jsSpecial ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE gui=italic
+
+hi phpDocTags ctermfg=241 ctermbg=NONE cterm=NONE guifg=#606060 guibg=NONE gui=italic
+hi phpDocIdentifier ctermfg=247 ctermbg=NONE cterm=NONE guifg=#999999 guibg=NONE gui=NONE
+hi phpIdentifier ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi phpMethod ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
+hi phpType ctermfg=178 ctermbg=NONE cterm=NONE guifg=#FFCC4B guibg=NONE gui=NONE
+hi phpVarSelector ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
 hi rubyBlockParameter ctermfg=215 ctermbg=NONE cterm=NONE guifg=#FFA244 guibg=NONE gui=italic
 hi rubyClass ctermfg=96 ctermbg=NONE cterm=NONE guifg=#FF4143 guibg=NONE gui=NONE
