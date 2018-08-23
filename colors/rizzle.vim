@@ -140,6 +140,14 @@ hi rustMacro ctermfg=215 ctermbg=NONE cterm=NONE guifg=#FFA244 guibg=NONE gui=it
 hi rustModPath ctermfg=178 ctermbg=NONE cterm=NONE guifg=#FFCC4B guibg=NONE gui=NONE
 hi rustType ctermfg=215 ctermbg=NONE cterm=NONE guifg=#FFA244 guibg=NONE gui=italic
 
+hi scalaCapitalWord ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
+hi scalaExternal ctermfg=178 ctermbg=NONE cterm=NONE guifg=#FFCC4B guibg=NONE gui=NONE
+hi scalaInstanceDeclaration ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
+hi scalaNameDefinition ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi scalaSpecial ctermfg=56 ctermbg=NONE cterm=NONE guifg=#7F4EFE guibg=NONE gui=NONE
+hi scalaSquareBracketsBrackets ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi scalaTypeDeclaration ctermfg=215 ctermbg=NONE cterm=NONE guifg=#FFA244 guibg=NONE gui=NONE
+
 hi vimGroup ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE
 hi vimGroupName ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE
 hi vimHiCtermFgBg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE
