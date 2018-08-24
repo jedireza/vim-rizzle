@@ -36,7 +36,7 @@ hi IncSearch ctermfg=24 ctermbg=178 cterm=NONE guifg=#0C151E guibg=#FFCC4B gui=N
 hi Keyword ctermfg=96 ctermbg=NONE cterm=NONE guifg=#FF4143 guibg=NONE gui=NONE
 hi Label ctermfg=178 ctermbg=NONE cterm=NONE guifg=#FFCC4B guibg=NONE gui=NONE
 hi LineNr ctermfg=234 ctermbg=NONE cterm=NONE guifg=#3c464f guibg=#0C151E gui=NONE
-hi MatchParen ctermfg=96 ctermbg=NONE cterm=underline guifg=#FF4143 guibg=NONE gui=underline
+hi MatchParen ctermfg=178 ctermbg=238 cterm=underline guifg=#FFCC4B guibg=#444444 gui=underline
 hi NonText ctermfg=231 ctermbg=NONE cterm=NONE guifg=#525563 guibg=#0C151E gui=NONE
 hi Normal guifg=#FFFFFF guibg=#0C151E gui=NONE
 hi Number ctermfg=96 ctermbg=NONE cterm=NONE guifg=#FF4143 guibg=NONE gui=NONE
@@ -65,14 +65,35 @@ hi VertSplit ctermfg=234 ctermbg=0 cterm=bold guifg=#3c464f guibg=#0C151E gui=bo
 hi Visual ctermfg=NONE ctermbg=238 cterm=NONE guifg=NONE guibg=#444444 gui=NONE
 hi WarningMsg ctermfg=231 ctermbg=96 cterm=NONE guifg=#f8f8f0 guibg=#FF4143 gui=NONE
 
+hi cssBackgroundProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi cssBorderProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi cssBoxProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi cssClassName ctermfg=70 ctermbg=NONE cterm=NONE guifg=#1094C3 guibg=NONE gui=NONE
-hi cssColor ctermfg=56 ctermbg=NONE cterm=NONE guifg=#7F4EFE guibg=NONE gui=NONE
-hi cssCommonAttr ctermfg=37 ctermbg=NONE cterm=NONE guifg=#1094C3 guibg=NONE gui=NONE
+hi cssClassName ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
+hi cssClassNameDot ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
+hi cssColor ctermfg=96 ctermbg=NONE cterm=NONE guifg=#FF4143 guibg=NONE gui=NONE
+hi cssCommonAttr ctermfg=215 ctermbg=NONE cterm=NONE guifg=#FFA244 guibg=NONE gui=italic
+hi cssFlexibleBoxProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi cssFontProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi cssFunctionName ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE gui=NONE
+hi cssListProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi cssMediaProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi cssNoise ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
+hi cssPageProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi cssPositioningProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi cssPseudoClassId ctermfg=70 ctermbg=NONE cterm=NONE guifg=#1094C3 guibg=NONE gui=NONE
+hi cssTagName ctermfg=178 ctermbg=NONE cterm=NONE guifg=#FFCC4B guibg=NONE gui=NONE
+hi cssTextProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi cssUIProp ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi cssURL ctermfg=215 ctermbg=NONE cterm=NONE guifg=#FFA244 guibg=NONE gui=italic
-hi cssValueLength ctermfg=56 ctermbg=NONE cterm=NONE guifg=#7F4EFE guibg=NONE gui=NONE
+hi cssUnicodeEscape ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE gui=italic
+hi cssUnitDecorators ctermfg=96 ctermbg=NONE cterm=NONE guifg=#FF4143 guibg=NONE gui=NONE
+hi cssValueLength ctermfg=96 ctermbg=NONE cterm=NONE guifg=#FF4143 guibg=NONE gui=NONE
+
+hi lessAmpersandChar ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
+hi lessClass ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
+hi lessMixinChar ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
+hi lessNestedSelector ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
 
 hi elixirAlias ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE gui=italic"
 hi elixirAtom ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE gui=italic"
@@ -155,6 +176,7 @@ hi vimHiGuiFgBg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE
 hi vimOption ctermfg=37 ctermbg=NONE cterm=NONE guifg=#3DE163 guibg=NONE
 
 hi xmlAttrib ctermfg=74 ctermbg=NONE cterm=NONE guifg=#55b5db guibg=NONE gui=NONE
+hi xmlEndTag ctermfg=247 ctermbg=NONE cterm=NONE guifg=#999999 guibg=NONE gui=NONE
 
 hi yamlAlias ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi yamlAnchor ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
